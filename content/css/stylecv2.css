@@ -93,7 +93,8 @@ header h2 u
 
 aside
 {
-	width: 30em;
+	width: 100%;max-width: 600px;
+	margin:auto;
 	text-align: justify;
 	background-color: #feca07;
 }
@@ -304,8 +305,7 @@ footer
 		{display: flex;
 		align-items: center;
 		width: 100%;max-width: 800px;margin-left:0;}
-	aside
-		{display: none;}
+	
 	.div_generale
 		{width: auto;max-width: 800px;display: flex;flex-direction: column;margin-left:0;}
 	.ligne
@@ -319,6 +319,7 @@ footer
 		width: 800px;
 		background-color:#feca07 ;
 		margin-bottom: 20px;
+
 
 	}
 	footer nav ul
