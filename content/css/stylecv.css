@@ -1,6 +1,6 @@
 *
 {
-	max-width: 1500px;
+	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
 	
@@ -28,7 +28,7 @@ header
 {
 	display: flex;
 	height: 325px;
-	width: 32em;
+	width: 30em;
 	justify-content: flex-start;
 	align-items: center;
 	background-color: #FFCA28;
@@ -45,7 +45,7 @@ header img
 {
 	display: flex;
 	align-items: center;
-	width: 68%;
+	width: 70%;
 }
 .nom_prenom
 {
@@ -93,7 +93,7 @@ header h2 u
 
 aside
 {
-	width: 32em;
+	width: 30em;
 	text-align: justify;
 	background-color: #feca07;
 
@@ -128,17 +128,17 @@ aside p
 .loisirs
 {
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 .loisirs i
 {
 	border:#404040 solid 5px;
-	padding-top: 25px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius: 50%;
 	margin-bottom:20px;
 	color: #404040;
@@ -147,7 +147,7 @@ aside p
 /* ========================= SECTIONS Colonne de droite ============================================== */
 .div_generale
 {
-	width: 68%;
+	width: 70%;
 }
 
 section /*blocs */
@@ -160,7 +160,7 @@ section h1 i  /* icones à coté des grands titres */
 {
 	color: #feca07;
 	margin-right: 20px;
-	font-size: 70px;
+	font-size: 50px;
 }
 
 section h1 /*grands titres (formation, expérience pro, recommandation)+tous les h1*/
@@ -170,25 +170,26 @@ section h1 /*grands titres (formation, expérience pro, recommandation)+tous les
 }
 .formation
 {
-	font-size: 40px;
+	font-size: xx-large;
 }
 .exppro
 {
-	font-size: 40px;
+	font-size: xx-large;
 }
 
 .recom
 {
-	font-size: 40px;
+	font-size: xx-large;
 }
 /**********************************reglage ligne colonne droite/gauche*********************/
 .ligne
 {
 	display: flex;
 	flex-direction: row;
-	margin-left: 1%;
+	margin-left: -5%;
 	margin-right: -5%;
 	margin-bottom: 5%;
+	padding-right: 5%;
 }
 
 .gauche
@@ -196,16 +197,16 @@ section h1 /*grands titres (formation, expérience pro, recommandation)+tous les
 	margin-left: 0;
 	margin-right: 20px;
 	padding-right: 5px;
-	min-width: 250px;
-	max-width: 250px;
-	font-size: large;
+	min-width: 200px;
+	max-width: 200px;
+	font-size: medium;
 	
 }
 
 
 .droite
 {
-	margin-right: auto;
+	margin-right: 25px;
 	font-size: normal;
 	margin-left: 0;
 
@@ -218,15 +219,24 @@ section h1 /*grands titres (formation, expérience pro, recommandation)+tous les
 }
 .recommandations p
 {
-	font-size: large;
+	font-size: medium;
 	margin-top: 15px;
 }
 
 ul{
 	list-style-type: none;
 	color: #4a4a4a;
-	font-size: x-large;
+	font-size: large;
 	font-weight: bold;
+}
+.puce_speciale
+{
+	background-image: url(dot-circle-regular.svg);
+	background-repeat: no-repeat;
+	position : relative;
+	margin-left: -30px;
+	padding-left: 30px;
+
 }
 
 ul li:not(.puce_speciale):before /*Toutes puce à part les première (balise .puce_spéciale)*/
@@ -235,35 +245,32 @@ ul li:not(.puce_speciale):before /*Toutes puce à part les première (balise .pu
 	margin-right: 10px;
 	color: #feca07;
 	font-weight: bold;
-	font-size: xx-large;
+	font-size: x-large;
 	margin-left: -19px;
 }
 
-.puce_speciale
-{
-	list-style-image: url(content/images/dot-circle-regular.svg);
-}
 /***********************colonne de droite*******************************/
-section div h1
+section div h1 /*société*/
 {
 	color: #4a4a4a;
 	border-bottom: none;
+	font-size: 20px;
 }
 
-section div h2
+section div h2 /*poste*/
 {
 	color: #4a4a4a;
 	font-weight: lighter;
-	font-size: x-large;
+	font-size: large;
 	margin-top: -0.5%;
 }
 
-section div p
+section div p /*description du poste*/
 {
 	color: #4a4a4a;
 	text-align: justify;
 	margin-top: -0.5%;
-	font-size: large;
+	font-size: medium;
 	
 }
 
