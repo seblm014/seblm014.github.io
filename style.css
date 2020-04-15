@@ -15,7 +15,7 @@ aside{
     display: flex;
     flex: 30%;
     flex-direction: column;
-	background-color: #FFCA29;
+	background-color: #FFA000;
 }
 
 .box_photo{
@@ -33,7 +33,7 @@ aside{
 aside h1{
     text-align: center;
     background-color: #404041;
-    color: #FFCA29;
+    color: #FFA000;
     padding-top: 2%;
     padding-bottom: 2%;
 }
