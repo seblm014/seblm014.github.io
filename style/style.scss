@@ -1,0 +1,174 @@
+/*Variables*/
+
+$jaune:#feca08;
+$gris:#404041;
+$borderphoto:#c69f15;
+
+/*Réglages des détails dans les classes*/
+.text-justify{
+    margin: 20px;
+}
+.gauche{
+    margin-left: -20px;
+    font-weight: 600;
+}
+.droite{
+
+    margin: 0;
+}
+.ligne{
+    display: flex;
+    margin-bottom: 3%;
+}
+.recom{
+    display: flex;
+}
+.recom_i{
+    display: flex;
+    justify-content: space-around;
+}
+.text-center{
+    
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+
+aside{
+    background-color: $jaune;
+    color: $gris;
+
+    figure{
+        display: flex;
+        img{
+            border: solid 2px $borderphoto;
+            border-radius: 50%;
+            width: 50%;
+            margin:auto;
+            margin-top: 3vh;
+            margin-bottom: 3vh;
+            
+            
+        }
+    }
+
+    h3{
+        background-color: $gris;
+        color: $jaune;
+        padding: 5px;
+        padding-right:-15px;
+
+
+    }
+    .loisir{
+        display: flex;
+        justify-content: space-around;
+        
+    
+    }
+
+    i{
+        margin-top: 20px;
+        border: $gris solid 5px;
+        border-radius: 100%;
+        padding: 15px;
+        font-size: 2em;
+    }
+
+}
+
+main{
+    header{
+        margin-top:10%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        h1,h2{
+            font-weight: 400;
+        }
+        h2{
+            color: $gris;
+        }
+        span{
+            color:$jaune;
+        }
+        u{
+            text-decoration-color:$jaune;
+        }
+    }
+    section{
+        margin-bottom: 60px;
+        color: $gris;
+
+        h2{
+            color: black;
+            font-size: 2em;
+            margin: 25px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px $jaune solid;
+            i{
+                color: $jaune;
+                margin-right: 20px;
+            }
+        }
+        h4{
+            font-weight: 600;
+        }
+        h5{
+            font-weight: 400;
+        }
+        ul{
+            color:$jaune;
+            span{
+                color: $gris;
+            }
+        }
+
+    }
+
+
+    
+}
+
+
+@media all and (max-width: 992px){
+    .general{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .ligne{
+        flex-direction: column;
+
+    }
+    .gauche{
+        ul{
+        
+        padding: 0;
+        font-size: 1.5em;
+        margin-top: 5vh;
+            li{
+                list-style-type: none;
+            }
+        }
+        
+        br{
+            display: none;
+        }
+    
+    }
+    .droite{
+        border-left: solid 1px $gris;
+    }
+    section{
+        margin: 0;
+    }
+    main{
+        header{
+            margin-left: auto;
+        }
+    }
+}

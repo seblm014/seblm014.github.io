@@ -1,204 +1,211 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-        <title>Mon CV</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <title>LE MARQUER Sébastien</title>
     </head>
 
+    <body class="container">
 
-    <body>
-        <!-- HTML aside sur la gauche -->
-        <aside>
-            <div class="box_photo">
-              <div class="photo"><img class="photocv.jpg" src="content/photocvmini.jpg"></div>
-            </div>
+        <div class="general row">
+<!-- HTML aside sur la gauche -->
+        <aside class="col-lg-4 col-md-push-4">
+            <figure>
+             <img class="photocv" src="content/photocvmini.jpg" alt="photocv">
+            </figure>
 
-            <div class="box_aside">
-                <h1>CONTACT</h1>
-              <div class="contact">
-                  <p>AdresseCaen,<br> France</p>
+            <section class="aside contact">
+                <h3 class="text-center">CONTACT</h3>
+                <address class="col-12">
+                  <p>Adresse<br>Caen, France</p>
                   <p>Téléphone<br>06 72 79 81 43</p>
                   <p>Email<br>slemarquer@gmail.com</p>
                   <p>Site web<br>not-yet</p>
                   <p>Skype<br>NO-Skype</p>
-              </div>
-            </div>
+                </address>
+            </section>
 
-            <div class="box_aside">
-                <h1>À PROPOS DE MOI</h1>
-                <div class="propos">
-                  <p>Véritable passionné d'activités physiques sportives et artistiques j'ai le goût de l'effort et le sens du travail en équipe. D'une volonté de fer, je projète d'achever un <a href="https://fr.wikipedia.org/wiki/Ironman">IronMan</a> dans les prochaines années.<br></p>
-                  <p>Ambitieux, curieux et autônome, je suis ce que l'on appelle un 'touche à tous' mais j'aspire un jour à devenir polymath. Il faut toutefois noter que j'ai une grande soif de liberté et j'aime jouir d'une certaine autonomie dans mon travail.<br></p>
-                  <p>Un insatiable désir d'évasion et de découverte m'a poussé à voyager plusieurs mois à travers le monde, notamment en Europe et en Asie.<br></p>
-                  <p>Aujourd'hui je souhaite ainsi télétravailler afin de continuer à combiner mon travail et mes passions.</p>   
-              </div>
-            </div>
-
-            <div class="box_aside">
-                <h1>LOISIRS</h1>
-                <div class="loisir">
-                        <i class="fas fa-swimmer"></i>
-                        <i class="fas fa-biking"></i>
-                        <i class="fas fa-running"></i>
-                        <i class="fas fa-dumbbell"></i>
-                        <i class="fas fa-volleyball-ball"></i>
-                        <i class="fas fa-skiing"></i>
-                        <i class="fas fa-book"></i>
-                        <i class="fas fa-gamepad"></i>
+            <section class="aside">
+                <h3 class="text-center">À PROPOS DE MOI</h3>
+                <div class="text-justify">
+                    <p>Véritable passionné d'activités physiques sportives et artistiques j'ai le goût de l'effort et le sens du travail en équipe. D'une volonté de fer, je projète d'achever un <a href="https://fr.wikipedia.org/wiki/Ironman">IronMan</a> dans les prochaines années.<br></p>
+                    <p>Ambitieux, curieux et autônome, je suis ce que l'on appelle un 'touche à tout' mais j'aspire un jour à devenir polymath. Il faut toutefois noter que j'ai une grande soif de liberté et j'aime jouir d'une certaine autonomie dans mon travail.<br></p>
+                    <p>Un insatiable désir d'évasion et de découverte m'a poussé à voyager plusieurs mois à travers le monde, notamment en Europe et en Asie.<br></p>
+                    <p>Aujourd'hui je souhaite ainsi télétravailler afin de continuer à combiner mon travail et mes passions.</p>   
                 </div>
-            </div>
+            </section>
+
+            <section class="aside">
+                <h3 class="text-center">LOISIRS</h3>
+                <figure class="loisir">
+                    <i class="fas fa-swimmer"></i>
+                    <i class="fas fa-biking"></i>
+                    <i class="fas fa-running"></i>
+                </figure>
+            </section>
         </aside>
-
+    
 <!-- corps = début du bloc à droite avec nom + sections -->
-  <div class="box_corps">
+        <main class="col-lg-8 col-md-pull-8">
+           
+            <header>
+                <hgroup>
+                        <h1><span>SÉBASTIEN</span> LE MARQUER</h1>
+                        <h2><u>Dével</u>oppeur web freelance</h2>
+                </hgroup>
+            </header>
+    <!-- Premère section : Formation -->
+            <section >
 
-        	<div class="box_nom">
-        	    <div class="nom_prenom">
-                    <h1><span>SÉBASTIEN</span> LE MARQUER</h1>
-                    <h2><u>Dével</u>oppeur web freelance</h2>
-                </div>
-            </div>
-        
-        	
-<!-- div générale qui englobe les 3 sous-sections -->
-        <div class="box_section">
-<!-- Premère section : Formation -->
-            <div class="box_formation">
-
-                <div class="titre"><h1><i class="fas fa-graduation-cap"></i><span class="formation"> FORMATION</span></h1></div>
-                
+                <h2>
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="h2"> FORMATION</span>
+                </h2>
+                    
                 <div class="ligne"> <!-- div ligne 1 de formation -->
-                    <div class='gauche'> <!-- div colonne de gauche -->
-                        <ul><li class="puce_speciale">2020<br>Caen</ul></li>
+                    <div class='col-md-3 gauche'> <!-- div colonne de gauche -->
+                        <ul>
+                            <li><span>2020: <br>Caen</span></li>
+                        </ul>
                     </div>
-                    <div class="droite"> <!-- div colonne de droite -->
-                        <h1>OPENCLASSROOMS</h1>
-                        <h2>Formation de Web Développeur</h2>
-                        <p>Formation en HTML, CSS, JavaScript,... <a href="accueil.html">Cliquez ici</a> pour voir mes projets.</p>
-                    </div>
+                    <article class="col-md-9 droite"> <!-- div colonne de droite -->
+                            <h4>OPENCLASSROOMS</h4>
+                            <h5>Formation de Web Développeur</h5>
+                            <p>Formation en HTML, CSS, SASS, Bootstrap... <a href="accueil.html">Cliquez ici</a> pour voir mes projets.</p>
+                    </article>
                 </div>
 
                 <div class="ligne"> <!-- div de la 2e ligne -->
-                    <div class='gauche'>
-                        <ul><li class="puce">2019 - 2013<br>Caen</ul></li>
+                    <div class='col-md-3 gauche'>
+                        <ul>
+                            <li><span>2019-2013: <br>Caen</span></li>
+                        </ul>
                     </div>
-                    <div class="droite">
-                        <h1>UNIVERSITÉ DE CAEN NORMANDIE (ESPE & UFR STAPS)</h1>
-                        <h2>Formateur, Enseignant, Animateur et Éducateur Sportif</h2>
+                    <article class="col-md-9 droite">
+                        <h4>UNIVERSITÉ DE CAEN NORMANDIE (ESPE & UFR STAPS)</h4>
+                        <h5>Formateur, Enseignant, Animateur et Éducateur Sportif</h5>
                         <p>Obtention d'un <a title="Métiers de l’enseignement, de l’éducation et de la formation" href="https://certificationprofessionnelle.fr/recherche/rncp/31853" target="_blank">Master MEEF</a> à l'ESPE de Caen.<br>Obtention d'une <a title="Licence STAPS" href="https://anestaps.org/wp-content/uploads/2020/01/rncp_l_em.pdf" target="_blank">Licence STAPS</a> à l'UFR STAPS de Caen.<br>Obtention d'un <a title="DEUG STAPS" href="http://anestaps.org/wp-content/uploads/2018/01/rncp_deug_staps.pdf" target="_blank">DEUG STAPS</a> à l'UFR STAPS de Caen.</p>
-                    </div>
+                    </article>
                 </div>
 
                 <div class="ligne"> <!-- div de la 3e ligne -->
-                    <div class='gauche'>
-                        <ul><li class="puce">2015<br>Caen</ul></li>
+                    <div class='col-md-3 gauche'>
+                        <ul><li><span>2015: <br>Caen</span></li></ul>
                     </div>
-                    <div class="droite">
-                        <h1>CAEN VOLLEY-BALL</h1>
-                        <h2>Brevet d'Entraîneur Fédéral de Niveau V -  Volley-ball</h2>
-                    </div>
+                    <article class="col-md-9 droite">
+                        <h4>CAEN VOLLEY-BALL</h4>
+                        <h5>Brevet d'Entraîneur Fédéral de Niveau V -  Volley-ball</h5>
+                    </article>
                 </div>
-                    
+                        
                 <div class="ligne"> <!-- div de la 4e ligne -->
-                    <div class='gauche'>
-                        <ul><li class="puce">2012<br>Caen</ul></li>
+                    <div class='col-md-3 gauche'>
+                        <ul><li><span>2012: <br>Caen</span></li></ul>
                     </div>
-                    <div class="droite">
-                        <h1>LYCEE VICTOR HUGO</h1>
-                        <h2>Baccalauréat série Scientifique</h2>
-                    </div>
+                    <article class="col-md-9 droite">
+                        <h4>LYCEE VICTOR HUGO</h4>
+                        <h5>Baccalauréat série Scientifique</h5>
+                    </article>
                 </div>
-            </div>
+            </section>
 
+    <!-- Deuxième section : Expérience professionnelle-->
+            <section >
 
-<!-- Deuxième section : Expérience professionnelle-->
-            <div class="box_exp">
-
-                <div class="titre"><h1><i class="fas fa-briefcase"></i><span class="exppro"> EXPÉRIENCE PROFESSIONNELLE</span></h1></div>
+                <h2>
+                    <i class="fas fa-briefcase"></i>
+                    <span class="h2"> EXPÉRIENCE PROFESSIONNELLE</span>
+                </h2>
                 
                 <div class="ligne">
-                    <div class='gauche'>
-                        <ul><li class="puce_speciale">2020 - 2017<br>Hérouville Saint Clair</li></ul>
+                    <div class='col-md-3 gauche'>
+                        <ul><li><span>2020-2017: <br>Hérouville Saint Clair</span></li></ul>
                     </div>
-                    <div class="droite">
-                        <h1>ÉDUCATION NATIONALE</h1>
-                        <h2>Assistant d'Éducation</h2>
+                    <article class="col-md-9 droite">
+                        <h4>ÉDUCATION NATIONALE</h4>
+                        <h5>Assistant d'Éducation</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incclassunt ut labore et dolore magna aliqua.</p>
-                    </div>
+                    </article>
                 </div>
 
                 <div class="ligne">  <!-- div de la 2eme ligne -->
-                    <div class='gauche'>
-                        <ul><li class="puce">2019 - 2017<br>Région Normandie</li></ul>
+                    <div class='col-md-3 gauche'>
+                        <ul><li><span>2019-2017: <br>Région Normandie</span></li></ul>
                     </div>
-                    <div class="droite">
-                        <h1>BCOM</h1>
-                        <h2>Diffuseur publicitaire</h2>
+                    <article class="col-md-9 droite">
+                        <h4>BCOM</h4>
+                        <h5>Diffuseur publicitaire</h5>
                         <p>Diffusion de publicité : flyers, poster, affiches dans les commerces et boites aux lettres. Couverture de la diffusion publicitaire des Élections Présclassentielles 2017 (Calvados).</p>
-                    </div>
+                    </article>
                 </div>
 
                 <div class="ligne"><!-- div de la 3eme ligne -->
-                    <div class='gauche'>
-                        <ul><li class="puce">2018 - 2015<br>Caen - Mondeville</li></ul>
+                    <div class='col-md-3 gauche'>
+                        <ul><li><span>2018-2015: <br>Caen - Mondeville</span></li></ul>
                     </div>
-                    <div class="droite">
-                        <h1>DECATHLON - CAEN VOLLEY-BALL</h1>
-                        <h2>Animateur Sportif & Entraîneur Fédéral</h2>
+                    <article class="col-md-9 droite">
+                        <h4>DECATHLON - CAEN VOLLEY-BALL</h4>
+                        <h5>Animateur Sportif & Entraîneur Fédéral</h5>
                         <p>Animateur sportif pour Décathlon.<br>Entraîneur de l'équipe 1 Sénior Départemental</p>
-                    </div>
+                    </article>
                 </div>
 
                 <div class="ligne"> <!-- div de la 4eme ligne -->
-                    <div class='gauche'>
-                        <ul><li class="puce">2015 - 2017<br>Caen</li></ul>
+                    <div class='col-md-3 gauche'>
+                        <ul><li><span>2015-2017: <br>Caen</span></li></ul>
                     </div>
-                    <div class="droite">
-                        <h1>AUTOENTREPRISE</h1>
-                        <h2>Coach Sportif Particulier (Éducateur Sportif)</h2>
+                    <article class="col-md-9 droite">
+                        <h4>AUTOENTREPRISE</h4>
+                        <h5>Coach Sportif Particulier (Éducateur Sportif)</h5>
                         <p>Coaching Privé à mon compte</p>
-                    </div>
+                    </article>
                 </div>
 
                 <div class="ligne"> <!-- div de la 5eme ligne -->
-                    <div class='gauche'>
-                        <ul><li class="puce">2016 - 2015<br>France</li></ul>
+                    <div class='col-md-3 gauche'>
+                        <ul><li><span>2016-2015: <br>France</span></li></ul>
                     </div>
-                    <div class="droite">
-                        <h1>GOOGLE .LLC</h1>
-                        <h2>Coach Digital GMB</h2>
+                    <article class="col-md-9 droite">
+                        <h4>GOOGLE .LLC</h4>
+                        <h5>Coach Digital GMB</h5>
                         <p>Démarchage et formation de professionnels PME & TPE à l'utilisation de Google My Business dans le cadre de l'opération "Google Pour les Pros"</p>
-                    </div>
+                    </article>
                 </div>
 
                 <div class="ligne"> <!-- div de la 6e ligne -->
-                    <div class='gauche'>
-                        <ul><li class="puce">2014 - 2011<br>Hérouville Saint Clair</li></ul>
+                    <div class='col-md-3 gauche'>
+                        <ul><li><span>2014-2011: <br>Hérouville Saint Clair</span></li></ul>
                     </div>
-                    <div class="droite">
-                        <h1>RENAULT RETAIL GROUP</h1>
-                        <h2>Magasinier</h2>
+                    <article class="col-md-9 droite">
+                        <h4>RENAULT RETAIL GROUP</h4>
+                        <h5>Magasinier</h5>
                         <p>Job d'été.</p>
-                    </div>
+                    </article>
                 </div>
-            </div>
-           
-<!-- Troisième section : Recommandations-->
-            <div class="box_recom">
+            </section>
 
-                <div class="titre"><h1><i class="fas fa-pencil-alt"></i><span class="recom"> RECOMMANDATIONS</span></h1></div>
-                
-                <div class="ligne_recom"> <!-- div générale recommandation -->
-                    <div class="gauche_recom">
+    <!-- Troisième section : Recommandations-->
+            <section>
+
+                <h2>
+                    <i class="fas fa-pencil-alt"></i>
+                    <span class="h2"> RECOMMANDATIONS</span>
+                </h2>
+
+                <div class="recom"> <!-- div générale recommandation -->
+                    <div class="col-6 recom_i">
                         <p><strong>JOHN DOE<br>
                             Directeur, Mon agence<br>
                             Téléphone :<br></strong>
                             Email : name@email.com                           
                         </p>
                     </div>
-                    <div class="droite_recom">
+                    <div class="col-6 recom_i">
                         <p><strong>JOHN DOE<br>
                             Directeur, Mon agence<br>
                             Téléphone :<br></strong>
@@ -206,7 +213,8 @@
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
+    </div>
     </body>
 </html>

@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*Variables*/
+/*Réglages des détails dans les classes*/
+.text-justify {
+  margin: 20px;
+}
+
+.gauche {
+  margin-left: -20px;
+  font-weight: 600;
+}
+
+.droite {
+  margin: 0;
+}
+
+.ligne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3%;
+}
+
+.recom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.recom_i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+aside {
+  background-color: #feca08;
+  color: #404041;
+}
+
+aside figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside figure img {
+  border: solid 2px #c69f15;
+  border-radius: 50%;
+  width: 50%;
+  margin: auto;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+aside h3 {
+  background-color: #404041;
+  color: #feca08;
+  padding: 5px;
+  padding-right: -15px;
+}
+
+aside .loisir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+aside i {
+  margin-top: 20px;
+  border: #404041 solid 5px;
+  border-radius: 100%;
+  padding: 15px;
+  font-size: 2em;
+}
+
+main header {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+
+main header h1, main header h2 {
+  font-weight: 400;
+}
+
+main header h2 {
+  color: #404041;
+}
+
+main header span {
+  color: #feca08;
+}
+
+main header u {
+  -webkit-text-decoration-color: #feca08;
+          text-decoration-color: #feca08;
+}
+
+main section {
+  margin-bottom: 60px;
+  color: #404041;
+}
+
+main section h2 {
+  color: black;
+  font-size: 2em;
+  margin: 25px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px #feca08 solid;
+}
+
+main section h2 i {
+  color: #feca08;
+  margin-right: 20px;
+}
+
+main section h4 {
+  font-weight: 600;
+}
+
+main section h5 {
+  font-weight: 400;
+}
+
+main section ul {
+  color: #feca08;
+}
+
+main section ul span {
+  color: #404041;
+}
+
+@media all and (max-width: 992px) {
+  .general {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .ligne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .gauche ul {
+    padding: 0;
+    font-size: 1.5em;
+    margin-top: 5vh;
+  }
+  .gauche ul li {
+    list-style-type: none;
+  }
+  .gauche br {
+    display: none;
+  }
+  .droite {
+    border-left: solid 1px #404041;
+  }
+  section {
+    margin: 0;
+  }
+  main header {
+    margin-left: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
